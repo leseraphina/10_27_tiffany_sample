@@ -1,0 +1,42 @@
+/* sec01 */
+  article>.box{
+    width:100%;
+    height:calc(100vh - 153px);
+    margin:0 auto 100px;
+    background:url('../../../public/img/background.png') no-repeat center;
+    position: relative;
+    /* background:linear-gradient(to bottom, pink, #d1f1ed, white); */
+  }
+  article>.box>h2{
+    margin:-75px 0 0 -405px;
+    line-height: 150px;
+    position: absolute;
+    top:50%; left:50%;
+    font-size:150px;
+    color:black;
+
+  }
+  article>section{
+    width:1200px;
+    margin:0 auto;
+    text-align: center;
+  }
+  article>section>h2{
+    font-size:54px;
+    font-weight:bold;
+    font:bold 54px/60px 'Times New Roman', Times, serif;
+    margin-bottom:50px;
+  }
+  section>section{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text{
+    text-align:left;
+    width:45%;
+    box-sizing: border-box;
+  }
+  .image{
+    width:30%;
+    box-sizing: border-box;
+  }
